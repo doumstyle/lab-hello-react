@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background: url('./images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+main {
+  padding: 2rem;
+  margin: 2rem;
+  color: #fff;
+}
+
+main h1 {
+  font-size: 8em;
+  margin: 0;
+}
+
+main > p {
+  width: 14em;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+main > button {
+  width: 10em;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1.5em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  margin: 20em 3rem;
+  justify-content: space-between;
+}
+
+section h3 {
+  font-size: 1.5em;
+}
+
+section p {
+  text-align: justify;
+  width: 10em;
+  color: grey;
+}
